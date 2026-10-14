@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="tl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="noindex, nofollow">
+<title>To My Jess ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=20261013f">
+</head>
+<body class="page-letter">
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="aurora" aria-hidden="true"></div>
+<div class="petals" id="petals" aria-hidden="true"></div>
+
+<button type="button" class="music" id="musicBtn" aria-pressed="false" aria-label="Play music">
+  <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+  <span id="musicLabel">music</span>
+</button>
+
+<aside class="yt-card" id="ytCard" aria-label="Now playing: Last Night on Earth by Green Day">
+  <div class="yt-frame"><div id="ytPlayer"></div></div>
+  <p class="yt-meta"><span class="yt-title">Last Night on Earth</span><span class="yt-artist">Green Day</span><span class="yt-hint">tap ▶ to play</span></p>
+</aside>
+
+<!-- ============ PAGE 2: cinematic intro ============ -->
+<section class="stage" id="intro" aria-live="polite">
+  <div>
+    <div class="intro-heart" id="introHeart" aria-hidden="true">
+      <svg viewBox="0 0 32 30"><defs><radialGradient id="hg" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#ffd9e4"/><stop offset=".55" stop-color="#f08aa8"/><stop offset="1" stop-color="#b82b57"/></radialGradient></defs><path fill="url(#hg)" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg>
+    </div>
+    <p class="intro-line" id="introLine"></p>
+  </div>
+</section>
+
+<section class="stage is-hidden" id="envStage" aria-label="Your letter">
+  <div class="env-wrap">
+    <h1 class="env-title">To My Jess ❤️</h1>
+    <div class="envelope" id="envelope" aria-hidden="true">
+      <div class="env-back"></div>
+      <div class="env-paper"><span>for you</span></div>
+      <div class="env-front"></div>
+      <div class="env-flap">
+        <div class="env-seal"><svg viewBox="0 0 32 30"><path fill="#6e1a3a" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+      </div>
+    </div>
+    <div class="env-actions" id="envActions">
+      <button type="button" class="btn" id="openLetter">Open My Letter 💌</button>
+    </div>
+  </div>
+</section>
+
+<button type="button" class="skip" id="skipIntro">skip intro</button>
+
+<!-- ============ PAGE 3: the letter ============ -->
+<main class="letter-view" id="letterView" aria-label="Letter to Jess">
+  <article class="paper">
+    <h1 class="salutation reveal">to my jess,</h1>
+
+    <section class="chapter">
+      <p class="body reveal">honestly, hanggang ngayon, hindi pa rin ako makapaniwala na nag-uusap na tayo at kung ano na yung meron sa atin ngayon. sometimes, napapaisip ako kung paano tayo nagsimula at kung paano tayo umabot sa point na ito. kasi if i look back, noong shs pa tayo, hanggang tingin lang ako sa'yo. i was secretly admiring you from afar, keeping my feelings to myself kasi natatakot ako na baka mahalata mo. hindi ko alam kung paano ko ie-express yung nararamdaman ko, kaya mas pinili ko na lang na itago kaysa ipaalam sa'yo.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">i</span><h2 class="chapter-title" data-type="Our Friendship">Our Friendship</h2></header>
+      <p class="body reveal">at first, simpleng paghanga lang naman talaga yung nararamdaman ko. i never expected na darating tayo sa point na magkakakilala tayo nang mas malalim, na magiging friends tayo, at eventually, magkakaroon tayo ng ganitong connection. habang tumatagal yung friendship natin, doon ko unti-unting na-realize na hindi na lang pala basta paghanga yung nararamdaman ko para sa'yo. i started liking you more than i expected, hanggang sa dumating sa point na naging special ka na talaga sa akin.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">ii</span><h2 class="chapter-title" data-type="Our First Gala at FM">Our First Gala at FM</h2></header>
+      <p class="body reveal">naalala ko pa yung first gala natin sa fm. kasama dapat natin si ate, pero hindi siya nakapunta, kaya si jen yung kasama natin. tatlo lang tayo noon, and kahit na magkasama na tayo, tinatago ko pa rin yung feelings ko para sa'yo. ayoko rin namang maging obvious kasi natatakot ako na baka mahalata mo at mas lalo lang lumalim yung nararamdaman ko. hindi ko rin naman kasi alam kung may chance ba ako sa'yo noon, kaya i just enjoyed the little moments na nakakasama kita.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">iii</span><h2 class="chapter-title" data-type="Our Cinema Date">Our Cinema Date</h2></header>
+      <p class="body reveal">then, naalala ko rin yung second meet-up natin noong nag-cine tayo, i think after graduation na yata 'yon. honestly, unexpected talaga sa akin na sasama ka. sobrang saya ko that time kasi it was just the two of us, and i felt happy knowing na may tiwala ka sa akin. tanda ko pa yung pinanood natin, nakakatakot pa naman! HAHAHAHAHA. ikaw, parang wala lang sa'yo, habang ako naman, panay takip ng mukha kasi sobrang magulatin talaga ako. looking back, ang simple lang ng moment na 'yon, pero isa siya sa mga memories na hindi ko basta-basta makakalimutan kasi kasama kita.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">iv</span><h2 class="chapter-title" data-type="Our Perya Memories">Our Perya Memories</h2></header>
+      <p class="body reveal">tapos yung last time na nagkita tayo, noong nag-perya tayo. tanda mo pa ba 'yon? HAHAHAHAHA. inaaya pa kita mag-vikings noon pero ayaw mo, kaya nag-decide na lang tayong mag-ferris wheel. doon ko rin nalaman na matatakutin ka rin pala. HAHAHAHAHA. kinabahan talaga ako noong sinabi mong hindi ka na makahinga. sabi ko pa sa sarili ko, itigil na lang natin bago pa ako mapahamak! HAHAHAHAHA. after that, nag-bingo pa tayo, pero hindi rin naman tayo nanalo. kaya ending, nag-jollibee na lang tayo. those little moments might seem ordinary to other people, pero para sa akin, they're memories worth keeping. kahit hindi tayo madalas magkita noon, masaya na ako basta nagkakaroon ako ng chance na makasama ka.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">v</span><h2 class="chapter-title" data-type="Almost Six Years">Almost Six Years</h2></header>
+      <p class="body reveal">and now, almost six years na pala tayong magkakilala. ang bilis ng panahon, no? from the days na hanggang tingin lang ako sa'yo, to the days na nagkakaroon na tayo ng sariling memories together. if someone told me back then na darating tayo sa ganitong point, siguro hindi rin ako maniniwala. i never imagined na yung taong hinahangaan ko lang noon would become someone this important to me.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">vi</span><h2 class="chapter-title" data-type="What You Mean to Me">What You Mean to Me</h2></header>
+      <p class="body reveal">kaya ngayon, gusto kong malaman mo kung gaano ako ka-thankful na dumating ka sa buhay ko. i appreciate your presence more than you know. kahit hindi ko man nasasabi palagi, ang laki ng epekto mo sa araw-araw ko. yung simpleng pag-uusap natin, pagkukuwento mo tungkol sa araw mo, paglalaan mo ng time para sa akin, o kahit yung malaman ko lang na okay ka, somehow, it makes everything feel lighter. you make my ordinary days feel special without even trying.</p>
+      <p class="body reveal">i'm grateful for your time, your effort, your care, and the comfort you give me. thank you for making me feel that i have someone i can talk to, someone i can share my thoughts with, and someone who makes even the simplest moments feel meaningful. you may think na maliit na bagay lang yung mga ginagawa mo, pero i hope you know na those little things mean so much to me. hindi mo man palaging napapansin, pero you bring me peace, happiness, and a kind of comfort na mahirap i-explain in words.</p>
+      <p class="body reveal">gusto ko ring malaman mo na hindi lang kita gusto dahil sa kung ano ka sa paningin ko. i like you for who you are, including the little things that make you uniquely you. i like the way you make me smile, the way you make me look forward to our conversations, and the way your presence alone can make a bad day feel a little better. hindi ko man kayang i-explain lahat ng dahilan kung bakit kita nagustuhan, one thing is certain: the more i get to know you, the more i find myself choosing you.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter">
+      <header class="chapter-head reveal"><span class="chapter-no">vii</span><h2 class="chapter-title" data-type="My Hopes for Us">My Hopes for Us</h2></header>
+      <p class="body reveal">almost six years na tayong magkakilala, and i sincerely hope na hindi rito matatapos yung story natin. i hope we continue to grow, not just individually, but also together. alam kong hindi naman palaging magiging madali ang lahat. there might be days when we misunderstand each other, when things get complicated, or when we struggle to understand what the other person is feeling. pero sana, kapag dumating tayo sa ganoong point, piliin pa rin nating mag-usap, makinig, at intindihin ang isa't isa.</p>
+      <p class="body reveal">i don't expect us to be perfect. ang gusto ko lang is for us to be honest with each other, to communicate when something feels wrong, and to never let pride get in the way of understanding one another. sana matuto tayong maging patient sa isa't isa, lalo na sa mga panahong hindi natin maintindihan ang nararamdaman ng bawat isa. because for me, love isn't just about being happy together. it's also about being willing to understand, to compromise, to learn, and to grow with the person you love.</p>
+    </section>
+
+    <div class="divider reveal" aria-hidden="true"><svg viewBox="0 0 32 30"><path fill="currentColor" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg></div>
+
+    <section class="chapter" id="finalChapter">
+      <header class="chapter-head reveal"><span class="chapter-no">viii</span><h2 class="chapter-title" data-type="My Final Message to You">My Final Message to You</h2></header>
+      <p class="highlight reveal">i miss you so much, jess, and i love youuu! <span class="h-heart" aria-hidden="true">♥</span></p>
+      <p class="body reveal">always remember na you are appreciated, you are important, and you are someone i genuinely want in my life. i love you so much, jess.</p>
+      <blockquote class="verse reveal">
+        <q>love is patient, love is kind.</q>
+        <cite>1 corinthians 13:4</cite>
+      </blockquote>
+    </section>
+
+    <div class="last-surprise reveal" id="lastWrap">
+      <button type="button" class="btn" id="lastSurprise">One Last Surprise ❤️</button>
+    </div>
+  </article>
+</main>
+
+<!-- ============ FINALE ============ -->
+<section class="finale" id="finale" aria-live="polite" aria-hidden="true">
+  <canvas class="finale-canvas" id="finaleSky" aria-hidden="true"></canvas>
+  <div class="finale-inner">
+    <div class="heart-field" id="heartField" aria-hidden="true">
+      <div class="big-heart" id="bigHeart">
+        <svg viewBox="0 0 32 30"><defs><radialGradient id="bhg" cx="40%" cy="32%" r="75%"><stop offset="0" stop-color="#ffe3ec"/><stop offset=".5" stop-color="#f08aa8"/><stop offset="1" stop-color="#a8234d"/></radialGradient></defs><path fill="url(#bhg)" d="M16 29C7 22 1 16.6 1 9.6 1 4.8 4.7 1 9.3 1c2.8 0 5.2 1.4 6.7 3.6C17.5 2.4 19.9 1 22.7 1 27.3 1 31 4.8 31 9.6 31 16.6 25 22 16 29z"/></svg>
+      </div>
+    </div>
+    <p class="finale-line" id="finaleLine"></p>
+    <p class="finale-sub" id="finaleSub">And I hope we create many more beautiful memories together.</p>
+    <div class="finale-actions" id="finaleActions">
+      <button type="button" class="btn" id="replay">Read My Letter Again 💌</button>
+    </div>
+  </div>
+</section>
+
+<script src="assets/sky.js?v=20261013f"></script>
+<script src="assets/music.js?v=20261013f"></script>
+<script src="assets/letter.js?v=20261013f"></script>
+</body>
+</html>
